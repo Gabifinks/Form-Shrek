@@ -1,0 +1,53 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("img/wallpaper.jpg");
+}
+
+h1{
+    display: flex;
+    color: green;
+    justify-content: center;
+    padding: 15px;
+}
+
+fieldset {
+    color: black;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset{
+    width: 600px;
+}
+
+textarea {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: green;
+    width: 500px;
+    height: 30px;
+    margin-top: 340px;
+    cursor: pointer;
+    }
+
+
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(228, 205, 205);
+}
+
+

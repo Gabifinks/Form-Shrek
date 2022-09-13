@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forum.css">
+    <title>Fórum do Shrek</title>
+</head>
+<body>
+    <h1> HTML Forms </h1>
+    <form action = "action_page.php" method="GET">
+        
+        <div class = "form-group">
+
+            <fieldset>
+                <legend> Delivery Location </legend>
+    
+                <ul>
+                    <li> <label for = "tell"> Zip Code: </label>
+                        <input type = "text" id = "zip_code" name="tell" required placeholder=" 99999-9999 "><br><br></li>
+        
+                <li> <label for = "tell"> Country: </label>
+                            <input type = "text" id = "country" name="country" required placeholder=" United States "><br><br></li>
+        
+                <li><label for="comment"> Adress: </label>
+                    <textarea rows="6" cols="50" id="comment"> Enter your adress here...</textarea></li>    
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend> Personal Information </legend>
+
+                <ul>
+                <li> <label for = "name"> Name: </label>
+                <input type = "text" id = "name" name="name" required placeholder=" Gabriela Fink "><br><br></li>
+        
+                <li><label for = "e-mail"> E-mail: </label>
+                    <input type ="text" id = "e-mail" name="e-mail" required placeholder=" Gabifink.s@gmail.com "><br><br></li>
+
+                <li> <label for = "cpf"> CPF: </label>
+                    <input type = "text" id = "cpf" name="cpf" required placeholder=" 120.538.159-73 "><br><br></li>
+
+                <li> <label for = "tell"> Tell: </label>
+                    <input type = "text" id = "tell" name="tell" required placeholder=" (48) 996970580 "><br></li>
+            </ul>
+        </fieldset>
+        </div>
+
+        <!-- <br><input type = "submit" value = "Submit"> -->
+        <br><button type="submit" id="submit" value="Submit Survey">Submit</button> 
+    </form>
+
+    <p> If you click the "Submit" button, the form-data will besent to a page called "action_page.php".</p>
+</body>
+</html>
